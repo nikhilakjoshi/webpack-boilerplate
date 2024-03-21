@@ -4,12 +4,11 @@
 
 @layer base {
   body {
-    font-family: "Overpass", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-optical-sizing: auto;
-    @apply antialiased;
   }
 }
-#shell {
+/* #shell {
   @apply container max-w-screen-lg mx-auto px-4 grid place-items-center min-h-screen;
 }
 
@@ -18,4 +17,4 @@
 }
 .nytg-navBar {
   @apply border-none;
-}
+} */

@@ -5,5 +5,8 @@
       "@/*": ["./src/*"]
     },
     "allowJs": true
+  },
+  "typeAcquisition": {
+    "include": ["jquery"]
   }
 }

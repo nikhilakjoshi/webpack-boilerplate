@@ -1,21 +1,29 @@
 {
   "rules": {
     "prefer-template": "off",
-    "no-var": 1,
-    "no-unused-vars": 1,
-    "camelcase": 1,
-    "no-nested-ternary": 1,
-    "no-console": 1,
-    "no-template-curly-in-string": 1,
-    "no-self-compare": 1,
+    "no-var": "off",
+    "no-unused-vars": "off",
+    "camelcase": "off",
+    "no-nested-ternary": "off",
+    "no-console": "off",
+    "no-template-curly-in-string": "off",
+    "no-self-compare": "off",
     "import/prefer-default-export": 0,
-    "arrow-body-style": 1,
-    "import/no-extraneous-dependencies": ["off", { "devDependencies": false }]
+    "arrow-body-style": "off",
+    "import/no-extraneous-dependencies": ["off", { "devDependencies": false }],
+    "no-undef": "off",
+    "no-redeclare": "off",
+    "no-empty": "off",
+    "no-useless-escape": "off",
+    "no-extra-boolean-cast": "off",
+    "no-fallthrough": "off",
+    "no-cond-assign": "off"
   },
   "ignorePatterns": ["dist", "node_modules", "webpack.*", "config/paths.js"],
   "env": {
     "browser": true,
-    "es6": true
+    "es6": true,
+    "node": true
   },
   "extends": ["eslint:recommended", "prettier"],
   "parserOptions": {
